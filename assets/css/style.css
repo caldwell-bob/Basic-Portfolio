@@ -20,7 +20,7 @@
     }
   
   #wrapper{
-    background-image: url("../images/topography.png")
+    /* background-image: url("../images/topography.png") */
   }
 
   header {
@@ -33,7 +33,7 @@
     float: right;
     max-width: 960px;
     /* background-color: white; */
-    background-image: url("../images/topography.png")
+    /* background-image: url("../images/topography.png") */
 
   }
 
