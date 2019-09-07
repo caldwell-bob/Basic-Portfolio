@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+  }
+
+#name{
+    position: fixed;
+    top: 0;
+    left:  20%;
+    background-color: #4aaaa5;
+    padding: 20px;
+    text-align: center;
+    color: white;
+  }
+  
+  nav{
+    float:  right;
+    padding: 20px;
+    margin:  20px;
+    
+    }
+  
+  #wrapper{
+    background-image: url("../images/topography.png")
+  }
+
+  header {
+    background-color:  white;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    max-width: 960px;
+  }
+
+  content {
+    float: right;
+    max-width: 960px;
+    /* background-color: white; */
+    background-image: url("../images/topography.png")
+
+  }
+
+  footer {
+    position: fixed;
+    bottom: 0;
+    padding: 20px
+  }
