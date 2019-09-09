@@ -13,20 +13,21 @@
   }
   
   nav{
-    float:  right;
-    padding: 20px;
-    margin:  20px;
+      background-color:  chartreuse;
+      float:  right;
+      padding: 20px;
+      margin:  20px;
     
     }
   
   #wrapper{
-    /* background-image: url("../images/topography.png") */
+    background-image: url("../images/topography.png")
   }
 
   header {
-    background-color:  white;
+    background-color: red;
     font-family: 'Georgia', Times, Times New Roman, serif;
-    max-width: 960px;
+    /* max-width: 960px; */
   }
 
   content {
@@ -38,7 +39,8 @@
   }
 
   footer {
-    position: fixed;
-    bottom: 0;
-    padding: 20px
+      border-top: 8px solid #4aaaa5;
+      position: fixed;
+      bottom: 0;
+      /*padding: 20px*/
   }
