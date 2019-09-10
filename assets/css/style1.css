@@ -56,6 +56,11 @@ footer {
     background: #666666; 
     text-align: center;
     border: 1px solid red;
+    /* margin-top: 8em; */
+}
+
+figure {
+    float:left;
 }
 
 #content {
@@ -64,7 +69,9 @@ footer {
     border: 1px solid #eee;
     background-color: white;
     max-width: 960px;
+    height: 45em;
     margin: auto;
+    overflow: auto;
     /* padding-top: 5em;  */
 
 }
