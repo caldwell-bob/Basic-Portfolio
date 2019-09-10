@@ -5,78 +5,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Contact</title>
-    <!-- <link rel="stylesheet" type="text/css" href="assets/css/style.css"> -->
+    <link rel="stylesheet" type="text/css" href="assets/css/style1.css">
     <style>
-        * {
-            box-sizing: border-box;
-        }
-
-        header {
-            background-color:  gray;
-            /* margin:  auto; */
-        }
-
-        #name {
-        position: fixed;
-        top: 2em;
-        left:  8em;
-        /* float:  left; */
-        background-color: #4aaaa5;
-        padding: 20px;
-        text-align: center;
-        color: white;
-        }
-
-        #my_nav {
-            position: fixed;
-            top:  4em;
-            left:  36em;
-            background-color:  chartreuse;
-            padding: 20px;
-            margin:  20px;
-        }
-
-        .wrapper {
-            clear: left;
-            background-color: blueviolet;
-            margin:auto;
-        }
-
-    
     
     </style>
 </head>
+
 <body>
-    <header>
-        <div id="name">
-            <h1>Bob Caldwell</h1>
-        </div>
-        <nav id = "my_nav">
-            <a href="index.html">About</a>
-            <a href="portfolio.html">Portfolio</a>
-            <a href="Contact.html">Contact</a>
-        </nav>
-        
-    </header>
-    <br>
-    <br>
-    <br>
-          
-    <div class="wrapper">
-        
-        <h1>About Me</h1>
-        <figure>
-            <!-- <img src="assets/images/topography.png" alt="Me"/> -->
-        </figure> 
-        <content>
-            <p>Nipperkin belaying pin hardtack Shiver me timbers squiffy man-of-war topsail snow blow the man down lee. Cog nipperkin broadside weigh anchor doubloon schooner swab measured fer yer chains fire ship sheet. Sail ho grapple come about belay main sheet bilge rat topmast scurvy ahoy hogshead.</p>
-            <p>Gaff hulk brig pink bounty keel lateen sail doubloon cutlass driver. Measured fer yer chains haul wind hearties Jolly Roger no prey, no pay heave down topgallant parley ballast pink. Cable hearties long boat keelhaul belay Admiral of the Black port cog walk the plank broadside.</p>
-                
+    <!-- <div><h1>Bob Caldwell</h1></div> -->
+     
+<div id="header_wrapper">
 
-                
-        </content>
-        <footer>copy this write</footer>
+    
+        <div id="header_content">
+                <aside id ="name">
+                    <h1>Bob Caldwell</h1>
+                    
+                </aside>
+                <nav id="navigation">
+                    <!-- <h3>A nav element</h3> -->
+                    <a href="index.html">About</a>
+                    <a href="portfolio.html">Portfolio</a>
+                    <a href="Contact.html">Contact</a>
+                </nav>
+            </div>
+           
+</div>
 
+    
+    <div id="content">
+        <h1>Contact</h1>
+        <hr>
+        <form>
+                Name<br>
+                <input type="text" name="firstname"><br>
+                Email<br>
+                <input type="text" name="lastname"><br>
+                Message<br>
+              </form>
+        
+<!--        <footer>copy this write</footer>-->
     </div>
+    <footer>copy this write</footer>
 </body>
 </html>
