@@ -141,7 +141,11 @@ input[type=submit] {
     /* padding:  1em; */
 }
 
-
+p {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+    margin: 2em;
+}
 
 /* textarea {
     cols: 100%;
