@@ -24,13 +24,17 @@
     bottom: -1em;
     padding: 1em;
     text-decoration-color: white;
+    color: #ffffff;
     /* border: 1px solid red; */
     text-align: center;
     background-color: #4aaaa5;
   }
 
+
+
 #navigation {
     font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
     float: right;
     position: relative;
     bottom: -40px;
@@ -47,15 +51,18 @@ body {
 footer {
     /* position: absolute;
     bottom: 0em; */
+    display: table-cell;
     position: fixed;
     left: 0px;
     width: 100%;
     bottom: 0px;
-    padding: 2em;
+    padding-top: 2em;
     /* margin: 0px; */
     background: #666666; 
     text-align: center;
-    border: 1px solid red;
+    border-top: 8px solid #4aaaa5;
+    color:  #ffffff;
+    vertical-align: bottom;
     /* margin-top: 8em; */
 }
 
